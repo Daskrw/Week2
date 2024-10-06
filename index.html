@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Weerapat Srirom</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .contact-info {
+            text-align: right;
+        }
+        .contact-info p {
+            margin: 0;
+        }
+        .name {
+            font-size: 36px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 18px;
+            color: #555;
+            text-transform: uppercase;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .work-experience, .education, .skills {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+        }
+        .work-experience p, .education p, .skills p {
+            margin: 5px 0;
+        }
+        .work-experience .job-title, .education .degree {
+            font-weight: bold;
+            color: #333;
+        }
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .skills .skill-category {
+            font-weight: bold;
+            color: #333;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .skills ul li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <img src="img.jpg" alt="Profile Image" class="profile-img">
+            <div class="contact-info">
+                <div class="name">Weerapat Srirom</div>
+                <p>📞 061-608-0720</p>
+                <p>📧 50759@awy.ac.th</p>
+                <p>🏡 52/5 Moo 2 Sarawanville Village, Chengwattana Road, Bang Talat, Pak Kret, Nonthaburi</p>
+            </div>
+        </div>
+
+        <!-- Work Experience Section -->
+        <div class="section">
+            <h2>Work Experience</h2>
+            <div class="work-experience">
+                <p>7-Eleven</p>
+                <div>
+                    <p class="job-title">Sales Associate</p>
+                    <p>03/2024 - 05/2024</p>
+                    <ul>
+                        <li>Operated the cash register and processed customer transactions.</li>
+                        <li>Managed stock levels by receiving, organizing, and restocking merchandise.</li>
+                        <li>Performed basic administrative tasks, such as filing documents and preparing sales reports.</li>
+                        <li>Provided excellent customer service to help customers with inquiries.</li>
+                    </ul>
+                </div>
+
+                <p>PENTHAI Project</p>
+                <div>
+                    <p class="job-title">Graphic Designer</p>
+                    <p>02/2024 - Present</p>
+                    <ul>
+                        <li>Contributed to the conceptualization and execution of visual content that aligned with the project’s goals.</li>
+                        <li>Collaborated on the development of interactive media, including AR, VR, and MR experiences.</li>
+                        <li>Supported the team in producing graphics and digital assets for different platforms.</li>
+                    </ul>
+                </div>
+
+                <p>Sarawanville Village</p>
+                <div>
+                    <p class="job-title">Financial Administrator</p>
+                    <p>08/2023 - 02/2024</p>
+                    <ul>
+                        <li>Collected common fees from residents and updated payment records in the village’s database.</li>
+                        <li>Maintained accurate financial records and assisted with resident inquiries.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <h2>Education</h2>
+            <div class="education">
+                <p>Ayutthaya Wittayalai School</p>
+                <div>
+                    <p class="degree">High School Diploma, 2023</p>
+                    <p>Cumulative GPA: 3.56</p>
+                    <p>Attended a top-ranked high school in Ayutthaya.</p>
+                </div>
+
+                <p>Panyapiwat Institute of Management</p>
+                <div>
+                    <p class="degree">Bachelor’s Degree in Digital Information and Technology</p>
+                    <p>Cumulative GPA: 3.72</p>
+                    <p>Participated in a work-based Education program combining academic studies with practical internships.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div>
+                    <p class="skill-category">Personal</p>
+                    <ul>
+                        <li>Time Management</li>
+                        <li>Communication Skills</li>
+                        <li>Problem-Solving</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="skill-category">Technical Skills</p>
+                    <ul>
+                        <li>Graphic Design</li>
+                        <li>Javascript (Basic)</li>
+                        <li>HTML (Basic)</li>
+                        <li>CSS (Basic)</li>
+                        <li>Data Management</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="skill-category">Languages</p>
+                    <ul>
+                        <li>Thai: Native</li>
+                        <li>English: Standard</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
